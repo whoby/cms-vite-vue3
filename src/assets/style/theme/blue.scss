@@ -1,0 +1,16 @@
+@forward 'element-plus/theme-chalk/src/common/var.scss' with (
+    $colors: (
+        'primary': ('base': #32aecc),
+        'success': ('base': #67c23a),
+        'warning': ('base': #f8ae07),
+        'danger': ('base': #f56c6c),
+        'info': ('base': #32aecc)
+    )
+);
+
+/* 页面主题色变量 */
+$--color-login: #077089;
+$--color-header: #33AECC;
+$--color-title: #fff;
+$--color-nav-active: #ffeb3b;
+$--color-aside: #f2f2f2;

@@ -1,0 +1,30 @@
+/*
+ * 主题色选择
+ * 可选项：['blue','black','green']
+ */
+
+@import './theme/black.scss';
+
+/* 框架页面配色 */
+header {
+    background-color: $--color-header;
+    h1 {
+        color: $--color-title;
+    }
+    a {
+        color: #fff;
+        text-decoration: none;
+        &:hover,
+        &.router-link-active {
+            color: $--color-nav-active;
+        }
+    }
+}
+
+aside {
+    background-color: $--color-aside;
+}
+
+.login-page {
+    background-color: $--color-login !important;
+}

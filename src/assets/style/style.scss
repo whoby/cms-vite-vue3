@@ -1,0 +1,82 @@
+@charset 'utf-8';
+@import './base.scss';
+
+/**
+ * @global css
+ */
+.row {
+    margin-bottom: 15px;
+}
+
+label {
+    display: inline-block;
+    min-width: 90px;
+    font-weight: normal;
+}
+
+.toolbar {
+    label {
+        text-align: right;
+    }
+    .el-input {
+        width: 150px;
+    }
+}
+
+.action {
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+}
+
+.pagerout {
+    text-align: center;
+    padding: 20px 0;
+}
+
+@media screen and (max-width: 1200px) {
+    .toolbar {
+        .el-input {
+            width: auto;
+        }
+    }
+}
+
+
+/**
+ * @reset Element UI
+ */
+.el-form {
+    .el-message {
+        top: 69px;
+    }
+    .el-form-item {
+        margin-bottom: 18px;
+        .el-form-item__label {
+            min-width: 135px;
+        }
+    }
+    .el-input {
+        width: auto;
+    }
+    .el-radio {
+        width: auto;
+        text-align: left;
+    }
+    .el-date-picker {
+        .el-input {
+            width: auto;
+        }
+    }
+}
+
+.el-dialog__body {
+    padding: 20px 20px;
+}
+
+.el-date-editor .el-range-separator {
+    width: auto;
+}
+
+.el-table--enable-row-hover tr:hover>td {
+    background-color: #F8F8F8;
+}
